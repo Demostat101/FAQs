@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F6EBFC;
+}
+
+.mobileBackground{
+    width: 100%;
+    
+}
+
+.desktopBackground {
+    display: none;
+}
+
+main {
+    padding: 0 1.5em;
+    min-height: 100vh;
+    transform: translateY(-5.3em);
+}
+
+.main {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 0 1.5em;
+    border-radius: 10px;
+    
+}
+
+.faqStar {
+    display: flex;
+    height: 100%;
+    place-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+.star svg {
+    width: 20px;
+}
+
+.faq {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: #2B0D2F;
+}
+
+.frontendMentor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    padding-bottom: 1.5em;
+}
+
+.minus1, .minus2, .minus3, .minus4  {
+    display: none;
+}
+
+.plusMinus {
+    margin-left: 2em;
+}
+
+.frontend {
+    color: #2E2030;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.frontParagragh1, .frontParagragh2, .frontParagragh3, .frontParagragh4{
+    font-weight: 400;
+    color: #9C8D9C;
+    display: none;
+    font-size: 16px;
+}
+
+hr {
+    margin-block: 1em;
+}
+
+.frontend:hover{
+    color: #AD28EB;
+}
+
+.frontParagragh4{
+    padding-bottom: 1.5em;
+}
+
+@media only screen and (min-width:700px){
+
+    .main {
+        width: 570px;
+    }
+
+    .mobileBackground{
+        display: none;
+    }
+
+    .desktopBackground{
+        display: flex;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+    }
+
+    main {
+        transform: translateY(-6em);
+    }
+    
+}
+
